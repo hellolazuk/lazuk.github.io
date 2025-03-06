@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hind+Siliguri:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
+@font-face {
+  font-family: "Kalpurush";
+  src: url("../fonts/kalpurush/Kalpurush.eot");
+  src: url("../fonts/kalpurush/Kalpurush.eot?#iefix") format("embedded-opentype"), 
+        url("../fonts/kalpurush/Kalpurush.woff2") format("woff2"), 
+        url("../fonts/kalpurush/Kalpurush.woff") format("woff"), 
+        url("../fonts/kalpurush/Kalpurush.ttf") format("truetype"), 
+        url("../fonts/kalpurush/Kalpurush.svg#Kalpurush") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Highlight JS */
+pre code {
+    overflow-x: auto;
+    padding: 0;
+    color: #eaeaea;
+    border-radius: 5px;
+}
+pre code.hljs {
+    overflow-x: auto;
+}
+  
+.hljs {
+    color: #eaeaea;
+}
+  
+.hljs-emphasis {font-style: italic}
+.hljs-strong {font-weight: 700}
+  
+.hljs-comment, .hljs-quote {color: #969896}
+.hljs-deletion, .hljs-name, .hljs-regexp, .hljs-selector-class, .hljs-selector-id, .hljs-tag, .hljs-template-variable, .hljs-variable {color: #d54e53}
+.hljs-built_in, .hljs-link, .hljs-literal, .hljs-meta, .hljs-number, .hljs-params, .hljs-type {color: #e78c45}
+.hljs-attribute {color: #e7c547}
+.hljs-addition, .hljs-bullet, .hljs-string, .hljs-symbol {color: #b9ca4a}
+.hljs-section, .hljs-title {color: #7aa6da}
+.hljs-keyword, .hljs-selector-tag {color: #c397d8}
+
+button[aria-label="Switch to light theme"],
+button[aria-label="Switch to dark theme"],
+#mobile-menu-toggle button,
+#mobile-menu-close {
+    cursor: pointer;
+}
+
+
+
+body {
+    font-family: "Kalpurush";
+}
+  
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Hind Siliguri', sans-serif;;;
+}
+
+.user-login svg {
+    margin: 0 auto;
+}
+
+.d-none {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-30%);
+    /* transition: 0.3s;  */
+}
+
+:root {
+    --content-offset: 43px;
+}
